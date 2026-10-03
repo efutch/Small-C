@@ -1,7 +1,7 @@
 ---
 layout: default
 title: A Small-C language definition for teaching compiler design
-description: A subset of K&R C designed for an undergraduate compiler design course.
+description: A subset of K&R C designed for an undergraduate compiler design course. It is incomplete by default.
 ---
 
 # A Small-C language definition for teaching compiler design
@@ -95,7 +95,7 @@ primary         ::= num | charconst | id | '(' expr ')'
 
 1. Lexical analyzer, built with a tool such as Flex, JLex, ANTLR.
 2. Parser, built with a tool such as Bison, CUP, ANTLR.
-3. Intermediate code generation (triples or quads, such as those suggested by the Dragon book).
-4. Object code, usual target could be the [MIPS](http://www.cs.wisc.edu/~larus/SPIM/cod-appa.pdf) architecture, but x86 could also be used, for more adventurous spirits.
+3. Intermediate code generation (triples or quads, such as those suggested by the Dragon book). For a more modern implementation, LLVM should be used.
+4. Object code, usual target could be the [MIPS](https://spimsimulator.sourceforge.net/) architecture, but x86 could also be used, for more adventurous spirits.
 
 *Note: A previous version of this work was published in <http://maestros.unitec.edu/~efutch/small-c__english_version_.html> but updated here for better editing and publishing capabilities.*
