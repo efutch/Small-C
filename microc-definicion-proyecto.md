@@ -232,9 +232,9 @@ int main( void )
 
 ## Adiciones a incluir
 
-Para diferenciar los proyectos, se agregará una característica adicional que cada alumno deberá incluir en la especificación base del lenguaje. Para saber qué característica le corresponde, deberá obtener el módulo 3 de su número de cuenta, de acuerdo a la siguiente tabla:
+Para mejorar la evaluación del proyecto, se puede escoger una o varias opciones de la siguiente tabla:
 
-| Módulo 3 del número de cuenta del estudiante | Característica a incluir |
+| Opcion | Característica a incluir |
 |---|---|
 | 0 | Uso de arreglos, incluyendo declaración y uso. |
 | 1 | Incorporación del statement `repeat-until`. |
@@ -256,7 +256,7 @@ Los puntos que serán evaluados para obtener la calificación del proyecto son l
 - Un statement return no debe retornar un valor a menos que se encuentre dentro de una función que haya sido declarada que retorna un valor.
 - La expresión en un return debe tener el mismo tipo de la función donde esté contenida.
 - Los statements *break* y *continue* solo pueden aparecer dentro de bloques contenidos en statements *while* (o en *repeat-until*).
-- Generación de código intermedio por medio de AST.
-- Generación de código MIPS.
+- Generación de código intermedio por medio de AST, quads, triples o LLVM.
+- Generación de código objeto.
 - Opcional para extra crédito: al menos dos optimizaciones simples.
 - Opcional para extra crédito: IDE que permita cargar archivos fuente y compilarlos directamente.
