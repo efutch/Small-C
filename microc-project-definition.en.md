@@ -2,11 +2,10 @@
 
 ## Introduction
 
-This reference manual describes the Micro-C language in detail. It is to be implemented as the project for the Compilers I and II courses at the Universidad Tecnológica Centroamericana (UNITEC), Tegucigalpa campus.
+This reference manual describes the Micro-C language in detail as the project definition for the Compilers I and II courses at the Universidad Tecnológica Centroamericana (UNITEC) in Tegucigalpa.
 
 Note that the definition contains some inaccuracies, ambiguities, or errors that the implementer (student) must resolve.
 
-Questions and comments may be sent to Prof. Egdares Futch at efutch at gmail dot com.
 
 ## Lexical Conventions
 
@@ -232,9 +231,9 @@ int main( void )
 
 ## Additional Features to Include
 
-To differentiate the projects, each student must include one additional feature on top of the base language specification. To determine which feature applies, take your student ID number modulo 3 and consult the following table:
+To improve their grade, students can add one or more additional feature on top of the base language specification from the following table:
 
-| Student ID number modulo 3 | Feature to include |
+| Option | Feature to include |
 |---|---|
 | 0 | Arrays, including declaration and use. |
 | 1 | The `repeat-until` statement. |
@@ -256,7 +255,7 @@ The items that will be evaluated to determine the project grade are the followin
 - A return statement must not return a value unless it is inside a function declared to return a value.
 - The expression in a return must have the same type as the function containing it.
 - The *break* and *continue* statements may only appear inside blocks contained in *while* statements (or in *repeat-until*).
-- Intermediate code generation by means of an AST.
-- MIPS code generation.
-- Optional for extra credit: at least two simple optimizations.
-- Optional for extra credit: an IDE that allows loading source files and compiling them directly.
+- Intermediate code generation by means of an AST, quads, triples or LLVM.
+- Object code generation (MIPS,x86, etc.).
+- Optional for extra extra credit: at least two simple optimizations.
+- Optional for extra extra credit: an IDE that allows loading source files and compiling them directly.
