@@ -6,11 +6,11 @@ description: A subset of K&R C designed for an undergraduate compiler design cou
 
 # A Small-C language definition for teaching compiler design
 
-*By Egdares Futch H. · Originally published June 8, 2017 on [Medium](https://medium.com/@efutch/a-small-c-language-definition-for-teaching-compiler-design-b70198531a2f)*
+*By Egdares Futch H. · Originally published June 8, 2017 on [Medium](https://medium.com/@efutch/a-small-c-language-definition-for-teaching-compiler-design-b70198531a2f)* after being moved from the original site at UNITEC.
 
 The Small-C language definition presented here is a subset of the K&R second edition version of the C language, specifically designed for use in an undergraduate compiler design course.
 
-Since this language definition is to be used as a teaching tool, it contains omissions, bugs and errors that are to be discovered by the student, in order to develop the skills to implement a high-level language compiler.
+Since this language definition is to be used as a teaching tool, it contains omissions, bugs and errors that are to be discovered by the implementer (the student), in order to develop the skills to implement a high-level language compiler.
 
 As an example, some of the changes that could (or should) be made to the grammar are:
 
@@ -24,7 +24,7 @@ As an example, some of the changes that could (or should) be made to the grammar
 
 ### Integer
 
-A sequence of digits denoting an integer number in the range -32768..32767. This should be stored in a twos-complement representation. Could be expanded to support 32- or 64-bit integers.
+A sequence of digits denoting an integer number in the range -32768..32767. This should be stored in a twos-complement representation, or as appropiate for the underlying architecture. Could be expanded to support 32- or 64-bit integers.
 
 ### Identifier
 
