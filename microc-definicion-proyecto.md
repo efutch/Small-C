@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Este manual de referencia describe en detalle el lenguaje Micro-C, para ser implementado como proyecto de los cursos de Compiladores I y II en la Universidad Tecnológica Centroamericana (UNITEC), campus Tegucigalpa.
+Este manual de referencia describe en detalle el lenguaje Micro-C, para ser implementado como proyecto de los cursos de pregrado llamados Compiladores I y II en la Universidad Tecnológica Centroamericana (UNITEC), campus Tegucigalpa que tuve el gusto de impartir.
 
 Debe notarse que la definición contiene algunas imprecisiones, ambigüedades o errores que el implementador (alumno) debe resolver.
 
