@@ -1,0 +1,19 @@
+- name: Small-C
+  url: /small-c/
+  summary: A subset of K&R C with built-in readint/writeint statements. Deliberately incomplete, so the implementer must find and fix the gaps.
+  audience: Undergraduate compiler design
+  target: MIPS (x86 suggested for the adventurous)
+  available:
+    - label: English
+      url: /small-c/
+
+- name: Micro-C (µ-C)
+  url: /micro-c/
+  summary: A C subset with functions, char/int, printf/scanf, and a per-student extra feature (arrays, repeat-until, or structs).
+  audience: Compilers I and II, UNITEC
+  target: MIPS, x86, etc.
+  available:
+    - label: English
+      url: /micro-c/
+    - label: Español
+      url: /micro-c/es/

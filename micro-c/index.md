@@ -1,3 +1,12 @@
+---
+layout: default
+title: "µ-C: Micro-C Language Reference Manual"
+description: Micro-C language reference manual, the project definition for the Compilers I and II courses at UNITEC.
+permalink: /micro-c/
+---
+
+[← All languages]({{ '/' | relative_url }}) · English · [Español]({{ '/micro-c/es/' | relative_url }})
+
 # µ-C: Micro-C Language Reference Manual
 
 ## Introduction
