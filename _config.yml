@@ -1,2 +1,3 @@
 theme: jekyll-theme-minimal
-title: Small-C Language Definition
+title: Micro-languages
+description: Small programming language definitions for teaching compiler construction.

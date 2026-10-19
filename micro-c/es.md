@@ -1,3 +1,12 @@
+---
+layout: default
+title: "µ-C: Manual de referencia del lenguaje Micro-C"
+description: Manual de referencia del lenguaje Micro-C, definición del proyecto de los cursos Compiladores I y II en UNITEC.
+permalink: /micro-c/es/
+---
+
+[← Todos los lenguajes]({{ '/' | relative_url }}) · [English]({{ '/micro-c/' | relative_url }}) · Español
+
 # µ-C: Manual de referencia del lenguaje Micro-C
 
 ## Introducción

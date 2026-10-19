@@ -2,7 +2,10 @@
 layout: default
 title: A Small-C language definition for teaching compiler design
 description: A subset of K&R C designed for an undergraduate compiler design course. It is incomplete by default.
+permalink: /small-c/
 ---
+
+[← All languages]({{ '/' | relative_url }})
 
 # A Small-C language definition for teaching compiler design
 
