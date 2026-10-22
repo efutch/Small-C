@@ -44,3 +44,9 @@ documentation I wrote to define them.
 
 Questions, errata and reference implementations are welcome as
 [issues](https://github.com/efutch/Small-C/issues).
+
+## License
+
+These definitions are licensed under
+[Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
+(CC BY-SA 4.0). You may share and adapt them, with credit and under the same license.
